@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&family=Open+Sans&family=Work+Sans:ital,wght@0,400;0,500;0,700;0,800;1,600&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.nav-container{
+min-height: 50px;
+display: flex;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+width: 1200px;
+max-width: 100%;
+margin: 0px auto;
+}
+.logo-container{
+    width: 50%;
+display: flex;
+align-items: center;
+}
+.logo-container img{
+    width: 40px;
+    height:40px;
+    margin-right: 10px;
+}
+.logo-container p{
+    font-size: 40px;
+    font-weight: 600;
+}
+.nav-items-container{
+width: 50%;  
+display: flex; 
+justify-content: space-between;
+align-items: center;
+font-weight:500;
+}
+.icons-container{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+background: rgba(11, 2, 35, 0.10);
+}
+.icons-container a{
+    margin-right: 10px;
+}
+.nav-items-container a{
+    text-decoration: none;
+    color: black; 
+}
+i{
+    font-size: 20px;
+}
+.fa-youtube{
+    color:red;
+}
+.fa-tiktok{
+    color: black;
+}
