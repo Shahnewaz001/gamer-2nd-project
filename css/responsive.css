@@ -11,4 +11,7 @@
         width: 100%;
         gap: 30px;
     }
+    .banner{
+        flex-direction: column-reverse;
+    }
 }
