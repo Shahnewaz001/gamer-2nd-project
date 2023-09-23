@@ -14,4 +14,14 @@
     .banner{
         flex-direction: column-reverse;
     }
+    .online-game-tittle{
+        font-size: 30px;
+        font-weight: 300;
+        text-align: center;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        margin: 0px auto;
+    }
 }
