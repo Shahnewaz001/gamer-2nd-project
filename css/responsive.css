@@ -24,4 +24,12 @@
         flex-direction: column;
         margin: 0px auto;
     }
+    .free-games{
+        flex-direction: column;
+        width: 100%;
+        margin-right: 0px auto;
+    }
+    .banner-container{
+        width: 60%;
+    }
 }
