@@ -32,4 +32,23 @@
     .banner-container{
         width: 60%;
     }
+    .head-icons .icons{
+        width: 100px;
+    }
+    .icons img{
+        width: 30px;
+        height: 30px;
+    }
+    .head-icons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .tell-icons .icons{
+        width: 100px;
+    }
+    .tell-icons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0px;
+    }
 }

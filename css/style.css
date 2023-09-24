@@ -187,3 +187,35 @@ position: relative;
 top:-90px;
 right: 90px;
 }
+.head-icons, .tell-icons{
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.tell-icons{
+    max-width: 100%;
+    padding:0px 100px 0px 100px;
+}
+.icons{
+    width: 200px;
+    display: flex;
+}
+.icons button{
+    font-size: 16px;
+    color: #0693d0;
+}
+.icons img{
+    width: 50px;
+    height: 50px;
+}
+.head-icons .icons:hover{
+    background-color: #F948B2;
+    border: 2px solid darkorange;
+    border-radius: 20px
+}
+.tell-icons .icons:hover{
+    background-color: #F948B2;
+    border: 2px solid darkorange;
+    border-radius: 20px
+}
+
