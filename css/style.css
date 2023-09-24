@@ -218,4 +218,39 @@ right: 90px;
     border: 2px solid darkorange;
     border-radius: 20px
 }
+.footer{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0px auto;
+    height: 400px;
+    margin-top: 200px;
+    background: #bfb0e3;
+    color: #FFF;
+    text-align: center;
+    padding:200px 100px 200px 100px;
+}
+.logo-container{
+    max-width: 100%;
+    margin: 0px auto;
+    justify-content: center;
+}
+div ul{
+    display: flex;
+    justify-content: space-evenly;
+    color: #0B0223;   
+}
+.footer >ul{
+    display: flex;
+    justify-content: space-evenly;
+    color: #0B0223;
+}
+ul >li{
+    list-style: none;
+}
+.font-icons,.gamer{
+    margin: 80px 0px;
+}
+.font-icons i{
+    margin-right: 40px;
+}
 

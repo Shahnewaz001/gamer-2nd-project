@@ -13,6 +13,7 @@
     }
     .banner{
         flex-direction: column-reverse;
+        width: 50%;
     }
     .online-game-tittle{
         font-size: 30px;
@@ -32,6 +33,20 @@
     .banner-container{
         width: 60%;
     }
+    .banner-title>h1{
+        margin-left: 0px;
+    }
+    .banner-scenery>img{
+        width: 400px;
+    }
+    .btn-primary-1, .btn-primary-2{
+        width: 200px;
+        height: 50px;
+        border-radius: 20px;
+        padding: 10px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
     .head-icons .icons{
         width: 100px;
     }
@@ -50,5 +65,28 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: 0px;
+    }
+    .logo-container{
+        display: flex;
+        flex-direction:row;
+        padding: 0px;
+    }
+    .footer{
+        padding-left: 0px;
+    }
+    .footer>ul{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 40px;
+    }
+    .footer div >ul{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 40px;
+    }
+    .font-icons{
+        flex-direction: row;
+        padding-left: 80px;
+        padding-right: 0px;
     }
 }
